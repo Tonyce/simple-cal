@@ -12,6 +12,12 @@
 		BEF8903C1C0C2BF50009700B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF8903A1C0C2BF50009700B /* Main.storyboard */; };
 		BEF8903E1C0C2BF50009700B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF8903D1C0C2BF50009700B /* Assets.xcassets */; };
 		BEF890411C0C2BF50009700B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF8903F1C0C2BF50009700B /* LaunchScreen.storyboard */; };
+		BEF890491C0C30B40009700B /* MonthFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF890481C0C30B40009700B /* MonthFlowLayout.swift */; };
+		BEF890501C0C36960009700B /* MonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8904E1C0C36960009700B /* MonthCollectionViewCell.swift */; };
+		BEF890511C0C36960009700B /* MonthCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF8904F1C0C36960009700B /* MonthCollectionViewCell.xib */; };
+		BEF890561C0C3B240009700B /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF890541C0C3B240009700B /* DayCell.swift */; };
+		BEF890571C0C3B240009700B /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF890551C0C3B240009700B /* DayCell.xib */; };
+		BEF890591C0C46D00009700B /* DayFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF890581C0C46D00009700B /* DayFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		BEF8903D1C0C2BF50009700B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF890401C0C2BF50009700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEF890421C0C2BF50009700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF890481C0C30B40009700B /* MonthFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthFlowLayout.swift; sourceTree = "<group>"; };
+		BEF8904E1C0C36960009700B /* MonthCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEF8904F1C0C36960009700B /* MonthCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthCollectionViewCell.xib; sourceTree = "<group>"; };
+		BEF890541C0C3B240009700B /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		BEF890551C0C3B240009700B /* DayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		BEF890581C0C46D00009700B /* DayFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 				BEF890361C0C2BF50009700B /* AppDelegate.swift */,
 				BEF890381C0C2BF50009700B /* ViewController.swift */,
 				BEF8903A1C0C2BF50009700B /* Main.storyboard */,
+				BEF8904E1C0C36960009700B /* MonthCollectionViewCell.swift */,
+				BEF8904F1C0C36960009700B /* MonthCollectionViewCell.xib */,
 				BEF8903D1C0C2BF50009700B /* Assets.xcassets */,
 				BEF8903F1C0C2BF50009700B /* LaunchScreen.storyboard */,
 				BEF890421C0C2BF50009700B /* Info.plist */,
+				BEF890481C0C30B40009700B /* MonthFlowLayout.swift */,
+				BEF890541C0C3B240009700B /* DayCell.swift */,
+				BEF890551C0C3B240009700B /* DayCell.xib */,
+				BEF890581C0C46D00009700B /* DayFlowLayout.swift */,
 			);
 			path = calendar;
 			sourceTree = "<group>";
@@ -126,6 +144,8 @@
 				BEF890411C0C2BF50009700B /* LaunchScreen.storyboard in Resources */,
 				BEF8903E1C0C2BF50009700B /* Assets.xcassets in Resources */,
 				BEF8903C1C0C2BF50009700B /* Main.storyboard in Resources */,
+				BEF890571C0C3B240009700B /* DayCell.xib in Resources */,
+				BEF890511C0C36960009700B /* MonthCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF890391C0C2BF50009700B /* ViewController.swift in Sources */,
+				BEF890501C0C36960009700B /* MonthCollectionViewCell.swift in Sources */,
 				BEF890371C0C2BF50009700B /* AppDelegate.swift in Sources */,
+				BEF890491C0C30B40009700B /* MonthFlowLayout.swift in Sources */,
+				BEF890591C0C46D00009700B /* DayFlowLayout.swift in Sources */,
+				BEF890561C0C3B240009700B /* DayCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
